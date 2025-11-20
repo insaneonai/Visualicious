@@ -45,7 +45,15 @@ export const Algos = [
         "spaceComplexity": "O(n)",
         "name": "Array",
         "image": "./array.webp",
-        "path:": "/array"
+        "path": "/array"
+    },
+    {
+        "description": "A linked list is a linear data structure where elements are stored in nodes, and each node points to the next node in the sequence.",
+        "timeComplexity": "O(n)",
+        "spaceComplexity": "O(n)",
+        "name": "Singly Linked List",
+        "image": "./singly-linked-list.webp",
+        "path": "/singly-linked-list"
     }
 ]
 

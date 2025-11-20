@@ -10,6 +10,7 @@ import MergeSortApp from './AlgorithmsVisualizer/Sorting/MergeSort.jsx';
 import QuickSortApp from './AlgorithmsVisualizer/Sorting/Quicksort.jsx';
 
 import ArrayApp from './AlgorithmsVisualizer/Array/array.jsx';
+import SinglyLinkedListApp from './AlgorithmsVisualizer/SinglyLinkedList/SinglyLinkedList.jsx';
 
 import './index.css'
 
@@ -41,8 +42,11 @@ const router = createBrowserRouter([
   {
     path: "array",
     element: <ArrayApp/>
+  },
+  {
+    path: "singly-linked-list",
+    element: <SinglyLinkedListApp/>
   }
-
 ]);
 
 createRoot(document.getElementById('root')).render(
